@@ -1,0 +1,62 @@
+/* clase para las animacion */
+.fadeIn{
+  /* duracion */
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name:  fadeIn;
+  animation-name: fadeIn;
+
+}
+
+/* aca se define la animacion que va tener esta clase  */
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInDown{
+  /* animation-duration: 4s; */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name:  fadeInDown;
+
+}
+
+@keyframes fadeInDown{
+  from{
+    opacity: 0;
+    /* //da posiscion a nuestro elemento hace que vaya desde arriba hasta abajo*/
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+  }to{
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+}
+
+.fadeInUp{
+  /* animation-duration: 4s; */
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name:  fadeInUp;
+}
+
+@keyframes fadeInUp{
+  from{
+    opacity: 0;
+    /* //da posiscion a nuestro elemento hace que vaya desde arriba hasta abajo*/
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+  }to{
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+}

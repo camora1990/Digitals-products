@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/animatons.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="images/">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <title>BRAND</title>
+</head>
+
+<body>
+  <!-- aqui comienza el navar -->
+  <nav class="fadeInDown">
+    <div class="brand_image ">
+      <a href="index.html"><img src="images/logo.webp" alt=""></a>
+    </div>
+    <div class="nav_options">
+      <ul>
+        <li> <a href="#">Fax</a> </li>
+        <li><a href="#">Producto y Descripción</a> </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- aqui termina el navar -->
+
+  <!-- aquie empieza formulario ventas -->
+
+  <div class="container-ventas">
+    <div class="section_sale">
+      <div class="col-1">
+        <img src="images/product1.png" alt="">
+        <h2>Producto 1</h1>
+          <p>
+            Miles de productos hay en el mercado, pero nada como una caja con gatitos
+          </p>
+      </div>
+      <div class="col-2">
+        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MSTCTWQ7LDKKE" method="POST">
+          <label for="name">Nombre</label>
+          <br>
+          <input type="text" placeholder="" name="name" class="data">
+          <br>
+          <label for="mail">E-mail</label>
+          <br>
+          <input type="email" name="mail" class="data">
+          <br>
+          <label for="phone">Telefono</label>
+          <br>
+          <input type="number" name="phone" class="data">
+          <br>
+          <label for="addres">Dirección</label>
+          <br>
+          <input type="text" name="" id="adress" class="data">
+          <br>
+          <div class="cotainer_btn">
+
+            <input type="submit" class="main_botton" name="submit" value="Confirmar Pago">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- aquie termina formulario ventas -->
+
+  <!-- aquí comienza el footer -->
+  <footer class="footer">
+    <p>terminos y condiciones</p>
+    <a href="mailto:contanto@mail.com"><p>contanto@mail.com</p></a>
+  </footer>
+  <!-- aquí termina el footer -->
+
+  <script src="scrips/scrip.js"></script>
+</body>
+
+</html>
